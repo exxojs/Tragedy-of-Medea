@@ -1,0 +1,222 @@
+body {
+    background-color: #ffcc92;
+    background-image: url(operatioRiptide.webp);
+    background-size:cover;
+    background-position: center; 
+    display: flex;
+    flex-flow: column;
+    background-repeat: repeat-y;
+    opacity: 150%;
+}
+
+footer{
+    display: flex;
+    justify-content: right;
+    margin-right: 290px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+::-webkit-scrollbar{
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+}
+
+::-webkit-scrollbar-corner{
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+}
+
+/* Arduino Project Container */
+.arduinoProj {
+    max-width: 700px;
+    margin: 0 auto;
+    margin-right: 60px;
+    margin-top: 40px;
+    float: right;
+    padding: 20px;
+    width: 100%;
+    display: block;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.021), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(30px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  }
+  
+  /* Header Section */
+  .headache {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 2px solid #ccc;
+    background: transparent;
+    color: #fff;
+  }
+  
+  .headache img {
+    margin-right: 0px;
+  }
+
+  #changeable-image {
+    height: 90px; 
+    width: auto; 
+  }
+
+  .change-image{
+    padding: 10px;
+    border: solid white 1px;
+    border-radius: 5px;
+    font-size: 16px;
+    background: rgba(255, 255, 255, 0.158);
+    color: #fff;
+    margin-right: 55px;
+  }
+  
+  #page-dropdown {
+    padding: 10px;
+    border: solid white 1px;
+    border-radius: 5px;
+    font-size: 16px;
+    background: rgba(255, 255, 255, 0.158);
+    color: #fff;
+  }
+
+  #page-dropdown option{
+    background-color: rgba(255, 255, 255, 0.158);
+    color: black;
+  }
+  
+  /* Code Container */
+  #code-container {
+    padding: 5px;
+  }
+  
+  h5{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-style: italic;
+    margin: auto;
+    align-items: center;
+  }
+  
+  pre {
+    white-space: pre-wrap;       /* Since CSS 2.1 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+  
+  
+  #code-display {
+    max-width: 100%;
+    height: 50vh;
+    overflow-y: scroll;
+    padding: 16px;
+    background: inherit;
+    color: white;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+  }
+  
+  #code-display code {
+    font-size: 14px;
+    font-family: monospace;
+  }
+  
+  @media (max-width: 1500px){
+    .arduinoProj{
+        max-width: 700px;
+        margin-top: 20px;
+        margin: 0 auto;
+        float:unset;
+      }
+
+      body{
+        background-color: #d4c3ad;
+        background-image: url(riptideSmall.png);
+        background-size:150%;
+        background-position: center; 
+        display: flex;
+        flex-flow: column;
+        background-repeat: repeat-y;
+        margin-top:100px;
+    }   
+
+    footer{
+        justify-content: center ;
+        margin: auto;
+        height: 50%;
+        margin-top: 20px;
+        }
+  }
+  @media (max-width: 500px) {
+    #code-display {
+        height: 50vh;
+        font-size: 20px;
+    }
+
+    body{
+        background-color: #d4c3ad;
+        background-image: url(riptideSmall.png);
+        background-size:150%;
+        background-position: center; 
+        display: flex;
+        flex-flow: column;
+        background-repeat: repeat-y;
+        margin-top:100px;
+    }
+
+    .headache button{
+        width: 60px;
+        overflow: hidden;
+    }
+
+    #changeable-image {
+        height: 60px; 
+        width: auto; 
+        display: none;
+      }
+    
+    #code-display {
+        max-width: 100%;
+        height: 40vh;
+        overflow-y: scroll;
+        padding: 16px;
+        background: rgba(255, 255, 255, 0);
+        color: white    ;
+        border-radius: 5px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+      }
+
+    .arduinoProj{
+      max-width: 300px;
+      margin-top: 30px;
+      margin: 0 auto;
+      float:unset;
+    }
+
+    footer{
+    justify-content: center ;
+    margin: auto;
+    height: 50%;
+
+    }
+
+    #dante {
+        height: 30px;
+        size: 50%;
+    }
+
+    .change-image{
+        margin-right: 10px;
+      }
+  }
+  
