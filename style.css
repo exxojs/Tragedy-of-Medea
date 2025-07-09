@@ -130,7 +130,7 @@ footer{
     font-family: monospace;
   }
   
-  @media (max-width: 1000px){
+  @media (max-width: 800px){
     .arduinoProj{
         max-width: 700px;
         margin-top: 20px;
